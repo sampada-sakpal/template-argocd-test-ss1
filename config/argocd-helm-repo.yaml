@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-cm
+  namespace: tools
+data:
+  helm.repositories: |
+    - url: http://artifactory.mooc-three-rhos-cluster.jp-tok.containers.appdomain.cloud/artifactory/generic-local/
+      name: helm-repository-location
