@@ -3,7 +3,7 @@ global:
   tlsSecretName: mooc-three-rhos-cluster
 
 inventory-management-svc-ss1:
-  replicaCount: 3
+  replicaCount: 4
 
   ingress:
     enabled: true
