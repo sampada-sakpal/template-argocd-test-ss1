@@ -1,0 +1,4 @@
+dependencies:
+  - name: inventory-management-bff-ss1
+    version: 1.0.0-3
+    repository: http://artifactory.mooc-three-rhos-cluster.jp-tok.containers.appdomain.cloud/artifactory/generic-local/mooc-team-three/

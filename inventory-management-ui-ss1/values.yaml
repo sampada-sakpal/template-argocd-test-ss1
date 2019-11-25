@@ -1,0 +1,10 @@
+global:
+  ingressSubdomain: mooc-three-rhos-cluster.jp-tok.containers.appdomain.cloud
+  tlsSecretName: mooc-three-rhos-cluster
+
+inventory-management-ui-ss1:
+  replicaCount: 3
+
+  ingress:
+    enabled: true
+    tlsSecretName: mooc-three-rhos-cluster
