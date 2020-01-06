@@ -1,4 +1,4 @@
 dependencies:
   - name: inventory-management-svc-ss1
-    version: 1.0.0-3
-    repository: http://artifactory.mooc-three-rhos-cluster.jp-tok.containers.appdomain.cloud/artifactory/generic-local/mooc-team-three/
+    version: 1.0.0-1
+    repository: http://artifactory.mooc-three-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000.jp-tok.containers.appdomain.cloud/artifactory/generic-local/mooc-team-three/
