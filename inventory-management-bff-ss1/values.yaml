@@ -1,10 +1,10 @@
 global:
-  ingressSubdomain: mooc-three-rhos-cluster.jp-tok.containers.appdomain.cloud
-  tlsSecretName: mooc-three-rhos-cluster
+  ingressSubdomain: mooc-three-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000.jp-tok.containers.appdomain.cloud
+  tlsSecretName: mooc-three-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000
 
 inventory-management-bff-ss1:
   replicaCount: 3
 
   ingress:
     enabled: true
-    tlsSecretName: mooc-three-rhos-cluster
+    tlsSecretName: mooc-three-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000
